@@ -27,7 +27,7 @@ public class Game1 : Game
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-        // TODO: use this.Content to load your game content here
+        Console.WriteLine("Loading Content!");
     }
 
     protected override void Update(GameTime gameTime)
